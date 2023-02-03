@@ -1,0 +1,208 @@
+fileFormatVersion: 2
+guid: 4825e263353fb5f48ace04b7af59ac70
+ModelImporter:
+  serializedVersion: 21202
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: "Invalid Avatar Rig Configuration. Missing or invalid transform:\n\tRequired
+      human bone 'Head' not found\n"
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: hand(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: armature
+      parentName: hand(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071069, y: 0, z: 0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LowerArm.L
+      parentName: armature
+      position: {x: 0.17518552, y: 0.0042345542, z: 0.014485125}
+      rotation: {x: -0.035856515, y: -0.041278243, z: 0.71256, w: 0.69947743}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1}
+    - name: Hand.L
+      parentName: LowerArm.L
+      position: {x: 0.0000000013396857, y: 0.13508956, z: 0.0000000010786607}
+      rotation: {x: -0.018425522, y: -0.66651773, z: -0.049780667, w: 0.7435971}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: IndexInterProxima.L
+      parentName: Hand.L
+      position: {x: -0.015346551, y: 0.03641488, z: 0.0029092727}
+      rotation: {x: -0.033933967, y: 0.042340826, z: 0.0068989736, w: 0.998503}
+      scale: {x: 1.0000001, y: 0.9999998, z: 1.0000004}
+    - name: IndexIntermediate.L
+      parentName: IndexInterProxima.L
+      position: {x: -5.2750693e-11, y: 0.01365542, z: -3.9932502e-11}
+      rotation: {x: -0.000004075467, y: 0.000002108514, z: -0.000023513097, w: 1}
+      scale: {x: 0.9999994, y: 0.9999995, z: 0.9999998}
+    - name: IndexDistal.L
+      parentName: IndexIntermediate.L
+      position: {x: 0.0000000011341399, y: 0.014851066, z: -2.9046987e-10}
+      rotation: {x: 0.000004310287, y: -0.000003583546, z: -0.000019952537, w: 1}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1}
+    - name: ThumbProximal.L
+      parentName: Hand.L
+      position: {x: -0.014374215, y: 0.001834435, z: 0.001419026}
+      rotation: {x: -0.3513838, y: -0.4105245, z: -0.49472445, w: 0.6806224}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: ThumbIntermediate.L
+      parentName: ThumbProximal.L
+      position: {x: -0.0000000013969839, y: 0.02031535, z: -0.0000000016298145}
+      rotation: {x: 0.4533083, y: -0.13333897, z: 0.06370558, w: 0.8790188}
+      scale: {x: 1.0000004, y: 1.0000002, z: 0.9999997}
+    - name: ThumbDistal.L
+      parentName: ThumbIntermediate.L
+      position: {x: -0.00000008288771, y: 0.0071338573, z: 0.000000037485734}
+      rotation: {x: 0.45750788, y: -0.14189021, z: -0.38808146, w: 0.78736687}
+      scale: {x: 1.0000002, y: 1.0000001, z: 0.9999998}
+    - name: MiddleProxima.L
+      parentName: Hand.L
+      position: {x: -0.0024922641, y: 0.038198274, z: 0.00018875943}
+      rotation: {x: -0.032906342, y: 0.048949167, z: 0.0152712595, w: 0.99814224}
+      scale: {x: 1, y: 1, z: 1.0000005}
+    - name: MiddleIntermediate.L
+      parentName: MiddleProxima.L
+      position: {x: 0.0000000018044375, y: 0.014888477, z: -0.000000002577508}
+      rotation: {x: -0.000048216425, y: 0.00000007078051, z: -0.0006411692, w: 0.9999998}
+      scale: {x: 0.9999999, y: 0.9999999, z: 0.9999997}
+    - name: MiddleDistal.L
+      parentName: MiddleIntermediate.L
+      position: {x: 4.3655746e-11, y: 0.018888729, z: 2.5465852e-11}
+      rotation: {x: 0.0000030291085, y: -0.0000007058543, z: -0.00000018437437, w: 1}
+      scale: {x: 1.0000002, y: 0.9999999, z: 1}
+    - name: RingProxima.L
+      parentName: Hand.L
+      position: {x: 0.009762236, y: 0.03639547, z: -0.003310313}
+      rotation: {x: -0.03348418, y: 0.059624776, z: 0.01127193, w: 0.9975954}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000004}
+    - name: RingIntermediate.L
+      parentName: RingProxima.L
+      position: {x: 0.000000002222805, y: 0.014682957, z: -7.144081e-10}
+      rotation: {x: -0.000020444391, y: -0.0000008344649, z: -0.00038256258, w: 1}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1}
+    - name: RingDistal.L
+      parentName: RingIntermediate.L
+      position: {x: 0.0000000024374458, y: 0.015398334, z: -0.000000059764716}
+      rotation: {x: -0.000000051946692, y: -0.0000005476374, z: -0.000000014725688,
+        w: 1}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1.0000001}
+    - name: LittleProxima.L
+      parentName: Hand.L
+      position: {x: 0.020479297, y: 0.030492483, z: -0.0056749242}
+      rotation: {x: -0.033460796, y: 0.077550665, z: 0.012969943, w: 0.9963424}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: LittleIntermediate.L
+      parentName: LittleProxima.L
+      position: {x: -4.6338755e-10, y: 0.011037714, z: -8.682832e-12}
+      rotation: {x: -0.000015228983, y: 0.0000031441443, z: -0.00071680994, w: 0.99999976}
+      scale: {x: 0.9999999, y: 1, z: 0.9999999}
+    - name: LittleDistal.L
+      parentName: LittleIntermediate.L
+      position: {x: -6.8780537e-10, y: 0.01213312, z: 2.5465852e-11}
+      rotation: {x: -0.00000007856577, y: 0.00000046934213, z: -0.00000078883323,
+        w: 1}
+      scale: {x: 1.0000005, y: 1.0000004, z: 1.0000005}
+    - name: Body.001
+      parentName: hand(Clone)
+      position: {x: -0.00000002142042, y: 0.000000014097271, z: 0.0000000018626428}
+      rotation: {x: 0.70710665, y: -0.0000000049943605, z: 0.000000009471971, w: 0.7071069}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: dd86cb30791b79c4895f4c4ea5be4563
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _ToonRamp: {fileID: 2800000, guid: 96ac985743c40434ca655f949d3686a7, type: 3}
+  - _BlurEnvMatCap: {fileID: 2800000, guid: a8adda796be2a884fb969bcd633ac771, type: 3}
+  - _EnvMatCap: {fileID: 2800000, guid: befa03684ff9916469ae2097e5fd1991, type: 3}
+  - _SpecularMatCap: {fileID: 2800000, guid: eec98e2aebe321647846a3440b863649, type: 3}
+  - _ShadowMatCap: {fileID: 2800000, guid: 2a2acaf25cb85224189b9b65f7a94656, type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
